@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero_section{
+    background: url(Images/BG.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hero_section_logo h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.hero_section_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+}
+
+.hero_section_content .hero_section_content_title{
+    font-weight: 500;
+}
+
+.hero_section_content .hero_section_content_para{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 16px;
+}
+
+.btn_container{
+    margin-top: 28px;
+}
+
+.btn_container .btn{
+    font-size: 12px;
+    padding: 16px;
+    border-radius: 30px;
+    border:  1px solid gray;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+
+.btn_container button:nth-child(1){
+    background-color: transparent;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.btn_container button:nth-child(2){
+    background-color: black;
+    color: white;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+
+.btn_container button:nth-child(1):hover{
+    transform: scale(1.1);
+}
+
+.btn_container button:nth-child(2):hover{
+    transform: scale(1.1);
+}
+
+
+.video {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#ebebeb, #F1F2F6);
+    padding-top: 3%;
+}
+
+
+#video{
+    width: 100%;
+    height: 550px;
+}
+
+.video_inner{
+
+    width: 80%;
+    height: 550px;
+    background-color: brown;
+    border-radius: 20px;
+    background: url(https://cdn.prod.website-files.com/6628a98e95cde4972cf720f8/66508559cd206dc06add34be_showreel-cover.webp);
+    background-size: cover;
+}
+
+.cards_body{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#ebebeb, #F1F2F6);
+
+}
+
+.card_one{
+    width: 40%;
+    height: 500px;
+    margin-right: 2%;
+
+}
+
+
+.card_first{
+    width: 100%;
+    height:450px;
+    background: url(Images/Card\ 1.webp);
+    background-size: cover;   
+    border-radius: 30px;
+}
+
+.card_first:hover{
+    transform: scale(1.1);
+    transition: .8s;
+}
+
+.card_second{
+    width: 100%;
+    height: 50px;
+
+}
+
+.card_second p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 3%;
+    padding-left: 5%;
+    font-weight: 500;
+
+}
+.card_second a {
+    float: right;
+    padding-right: 2%;
+    font-weight: 700;
+
+}
+.card_second a:hover {
+    color: rgb(148, 148, 148);
+    transition: 0.5s;
+}
+
+
+
+
+.card_two{
+    width: 40%;
+    height: 500px;
+}
+
+.card_two_first{
+    width: 100%;
+    height:450px;
+    background: url(Images/Card\ 2.webp);
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.card_two_first:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+
+.card_two_second{
+    width: 100%;
+    height: 50px;
+}
+
+.card_two_second p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 3%;
+    padding-left: 5%;
+    font-weight: 500;
+
+}
+.card_two_second a {
+    float: right;
+    padding-right: 2%;
+    font-weight: 700;
+}
+.card_two_second  a:hover {
+    color: rgb(148, 148, 148);
+    transition: 0.5s;
+}
+
+
+
+.services_section{
+width: 100%;
+height: 600px;
+background-image: linear-gradient(#ebebeb, #F1F2F6);
+display: flex;
+}
+
+.services_section_text{
+    width: 80%;
+    background-image: linear-gradient(#ebebeb, #F1F2F6);
+    font-size: 55px;
+    padding-top: 8%;
+    padding-left: 12%;
+}
+
+.services_section_text p {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    padding-top:2%;
+
+
+}
+
+.services_section_img{
+    width: 30%;
+    background-image: url(Images/Content\ Img.webp);
+    height: 300px;
+    background-size: cover;
+    border-radius: 40px;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
